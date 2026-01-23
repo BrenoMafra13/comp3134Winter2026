@@ -1,0 +1,19 @@
+# netflix.com:
+    - IP Address: 54.155.178.5
+    - Geolocation: United States of America
+
+# github.com:
+    - IP Address: 140.82.113.3
+    - Geolocation: United States of America
+
+# microsoft.com:
+    - IP Address: 13.107.213.40
+    - Geolocation: United States of America
+
+# apple.com:
+    - IP Address: 17.253.144.10
+    - Geolocation: United States of America
+
+# stackoverflow.com:
+    - IP Address: 198.252.206.1
+    - Geolocation: United States of America

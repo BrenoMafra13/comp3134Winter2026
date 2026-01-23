@@ -1,0 +1,47 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 18:29 UTC
+Nmap scan report for google.com (192.178.192.138)
+Host is up (0.0032s latency).
+Other addresses for google.com (not scanned): 192.178.192.101 192.178.192.102 192.178.192.113 192.178.192.139 192.178.192.100 2607:f8b0:4023:1803::64 2607:f8b0:4023:1803::71 2607:f8b0:4023:1803::8a 2607:f8b0:4023:1803::65
+rDNS record for 192.178.192.138: lcyyzn-in-f138.1e100.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.67 seconds
+
+root@comp3134Winter2026:~# nmap -p 80 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 18:29 UTC
+Nmap scan report for google.com (192.178.192.100)
+Host is up (0.0032s latency).
+Other addresses for google.com (not scanned): 192.178.192.101 192.178.192.102 192.178.192.113 192.178.192.139 192.178.192.138 2607:f8b0:4023:1803::64 2607:f8b0:4023:1803::65 2607:f8b0:4023:1803::8a 2607:f8b0:4023:1803::71
+rDNS record for 192.178.192.100: lcyyzn-in-f100.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+
+root@comp3134Winter2026:~# nmap -p 20-100 google.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 18:29 UTC
+Nmap scan report for google.com (192.178.192.102)
+Host is up (0.0029s latency).
+Other addresses for google.com (not scanned): 192.178.192.138 192.178.192.101 192.178.192.139 192.178.192.100 192.178.192.113 2607:f8b0:4023:1803::64 2607:f8b0:4023:1803::71 2607:f8b0:4023:1803::65 2607:f8b0:4023:1803::8a
+rDNS record for 192.178.192.102: lcyyzn-in-f102.1e100.net
+Not shown: 80 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.68 seconds
+
+root@comp3134Winter2026:~# nmap -F 159.89.125.218
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 18:32 UTC
+Nmap scan report for comp3134Winter2026 (159.89.125.218)
+Host is up (0.0000090s latency).
+Not shown: 97 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds

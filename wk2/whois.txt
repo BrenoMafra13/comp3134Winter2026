@@ -1,0 +1,73 @@
+# walmart.com:
+    - Domain Name: walmart.com
+    - Registrar: CSC Corporate Domains, Inc.
+    - Creation Date: 2/23/1995
+    - Expiry Date: 9/23/2026
+    - Name Servers:
+    Hostname	            IP Address
+    a22-67.akam.net	        23.211.61.67
+    a8-66.akam.net	        2.16.40.66
+    a10-66.akam.net	        96.7.50.66
+    a3-64.akam.net	        96.7.49.64
+    a5-65.akam.net	        95.100.168.65
+    a1-185.akam.net	        193.108.91.185
+    pdnswm1.ultradns.net	156.154.64.4
+    pdnswm2.ultradns.net	156.154.65.4
+    pdnswm3.ultradns.org	156.154.66.4
+    pdnswm4.ultradns.org	156.154.67.4
+    pdnswm5.ultradns.info	156.154.68.4
+    pdnswm6.ultradns.co.uk	156.154.69.4
+
+
+# mercedes-benz.com:
+    - Domain Name: mercedes-benz.com
+    - Registrar: Key-Systems GmbH
+    - Creation Date: 12/9/1994
+    - Expiry Date: 12/8/2034
+    - Name Servers:
+    Hostname	        IP Address
+    ns1.corpinter.net	141.113.0.53
+    ns2.corpinter.de	141.113.8.53
+    ns3.corpinter.net	141.113.136.53
+    ns4.corpinter.de	141.113.168.53
+
+
+# canadiantire.ca:
+    - Domain Name: canadiantire.ca
+    - Registrar: Webnames.ca Inc.
+    - Creation Date: 10/11/2000
+    - Expiry Date: 11/6/2026
+    - Name Servers:
+    Hostname	        IP Address
+    ns1.cantire.com	    199.202.145.0
+    ns2.cantire.com	    199.202.145.1
+    ns3.cantire.com	    199.202.145.2
+    ns4.cantire.com	    199.202.145.3
+
+
+# metro.ca:
+    - Domain Name: metro.ca
+    - Registrar: DomainePlus.com (3612040 CANADA inc.)
+    - Creation Date: 10/24/2000
+    - Expiry Date: 5/15/2026
+    - Name Servers:
+    Hostname	            IP Address
+    lady.ns.cloudflare.com	172.64.32.127
+    lou.ns.cloudflare.com	108.162.193.199
+
+
+# amazon.com:
+    - Domain Name: amazon.com
+    - Registrar: MarkMonitor Inc.
+    - Creation Date: 11/1/1994
+    - Expiry Date: 10/31/2026
+    - Name Servers:
+    Hostname	        IP Address
+    ns1.amzndns.co.uk	156.154.67.10
+    ns1.amzndns.com	    156.154.64.10
+    ns1.amzndns.net	    156.154.65.10
+    ns1.amzndns.org	    156.154.66.10
+    ns2.amzndns.co.uk	204.74.120.1
+    ns2.amzndns.com	    156.154.68.10
+    ns2.amzndns.net	    156.154.69.10
+    ns2.amzndns.org	    156.154.150.1
