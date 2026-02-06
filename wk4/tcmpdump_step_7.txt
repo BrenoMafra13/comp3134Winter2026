@@ -1,0 +1,12 @@
+root@comp3134Winter2026:~# sudo tcpdump -r tcpdump_step_6.pcap
+reading from file tcpdump_step_6.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+18:44:27.287817 IP comp3134Winter2026.ssh > 198.96.85.106.52590: Flags [P.], seq 3875195715:3875195759, ack 2529995808, win 982, options [nop,nop,TS val 734107754 ecr 3663109088], length 44
+18:44:27.287935 IP comp3134Winter2026.ssh > 198.96.85.106.52590: Flags [P.], seq 44:96, ack 1, win 982, options [nop,nop,TS val 734107754 ecr 3663109088], length 52
+18:44:27.288018 IP comp3134Winter2026.ssh > 198.96.85.106.52590: Flags [P.], seq 96:164, ack 1, win 982, options [nop,nop,TS val 734107754 ecr 3663109088], length 68
+18:44:27.288101 IP comp3134Winter2026.ssh > 198.96.85.106.52590: Flags [P.], seq 164:232, ack 1, win 982, options [nop,nop,TS val 734107754 ecr 3663109088], length 68
+18:44:27.288184 IP comp3134Winter2026.ssh > 198.96.85.106.52590: Flags [P.], seq 232:268, ack 1, win 982, options [nop,nop,TS val 734107754 ecr 3663109088], length 36
+18:44:27.288853 IP 198.96.85.106.52590 > comp3134Winter2026.ssh: Flags [.], ack 0, win 2048, options [nop,nop,TS val 3663109093 ecr 734107750], length 0
+18:44:27.294293 IP 198.96.85.106.52590 > comp3134Winter2026.ssh: Flags [.], ack 268, win 2048, options [nop,nop,TS val 3663109098 ecr 734107754], length 0
+18:44:27.306604 IP 198.96.85.106.52590 > comp3134Winter2026.ssh: Flags [P.], seq 1:37, ack 268, win 2048, options [nop,nop,TS val 3663109110 ecr 734107754], length 36
+18:44:27.306781 IP comp3134Winter2026.ssh > 198.96.85.106.52590: Flags [P.], seq 268:304, ack 37, win 982, options [nop,nop,TS val 734107773 ecr 3663109110], length 36
+18:44:27.311725 IP 198.96.85.106.52590 > comp3134Winter2026.ssh: Flags [.], ack 304, win 2048, options [nop,nop,TS val 3663109116 ecr 734107773], length 0

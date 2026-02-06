@@ -1,0 +1,5 @@
+root@comp3134Winter2026:~# sudo tcpdump -w tcpdump_step_6.pcap -i eth0 -c 10
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+10 packets captured
+141 packets received by filter
+0 packets dropped by kernel
