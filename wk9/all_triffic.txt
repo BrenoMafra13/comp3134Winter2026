@@ -1,0 +1,15 @@
+Command used: sudo tcpdump -w all_traffic_$(date +%Y%m%d_%H%M)
+
+Output:
+
+root@comp3134-Winter2026:~# sudo tcpdump -w all_traffic_$(date +%Y%m%d_%H%M)
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^C199 packets captured
+201 packets received by filter
+0 packets dropped by kernel
+root@comp3134-Winter2026:~# ls -lh
+total 1.9M
+-rw-r--r-- 1 tcpdump tcpdump  43K Feb  5 17:31 0001.pcap
+-rw-r--r-- 1 tcpdump tcpdump 203K Mar 10 17:56 all_traffic_20260310_1748.pcap
+-rw-r--r-- 1 tcpdump tcpdump 1.6M Mar 10 18:29 all_traffic_20260310_1758.pcap
+-rw-r--r-- 1 tcpdump tcpdump  24K Mar 15 15:27 all_traffic_20260315_1526
