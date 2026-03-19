@@ -1,0 +1,18 @@
+1) Valid Word:
+The site works normally. It finds the word "cybersecurity" and shows the 
+definition page. The URL looks clean with the term at the end.
+
+2) Invalid Word after /browse/:
+When I typed a fake word in the URL, the site showed a "Word not found" 
+page. It didn't crash or show any errors, it just handled the mistake.
+
+3) Script in Form:
+I tried to paste the <script> tag in the search box, but the site 
+just treated it as normal text. No alert popped up, so the site 
+is protected against XSS.
+
+4) Script in URL (term=):
+I put the script directly in the URL, but the site filtered the 
+characters. It didn't execute the javascript, showing that the 
+app has good security for URL parameters.
+

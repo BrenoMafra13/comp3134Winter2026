@@ -1,0 +1,9 @@
+1) strip_tags(): 
+This function just deletes all HTML tags from the input. For example, 
+if someone types <script>, the function removes it completely. It is 
+a very aggressive way to clean data.
+
+2) htmlspecialchars(): 
+This one doesn't delete anything. It just changes characters like "<" 
+and ">" into safe codes (entities). The text still shows up on the 
+screen, but the browser won't run it as code.
