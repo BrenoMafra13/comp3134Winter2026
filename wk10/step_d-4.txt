@@ -1,0 +1,11 @@
+Directory Traversal 1 Report
+
+- What you see on the browser (the issue): 
+By using the query string "?q=../../", the browser displays an array of directories that are outside 
+of the web root folder. Specifically, it is showing the contents of the "/var" directory instead of 
+"/var/www/html".
+
+- What sensitive information is given by this page: 
+This reveals the internal directory structure of the operating system. An attacker can see system 
+logs, backup folders, and configuration files, which could lead to a full system compromise by 
+accessing sensitive data stored in those directories.

@@ -1,0 +1,12 @@
+Directory Traversal 2 Report
+
+- What you see on the browser (the issue): 
+The browser displays the parent directory listing, showing folders such as "bin", "boot", "etc", 
+and "var". This is the same result as using "../", confirming that the application processes 
+URL-encoded characters (%2e%2e%2f) as directory navigation commands.
+
+- What sensitive information is given by this page: 
+This demonstrates that the application is vulnerable to obfuscated traversal attacks. It reveals 
+that an attacker can bypass simple security filters (which might only look for literal "../" 
+strings) by using hexadecimal encoding. This exposes the entire system's file architecture to 
+unauthorized mapping and potential data theft.

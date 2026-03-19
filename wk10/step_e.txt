@@ -1,0 +1,9 @@
+1) basename() function: Used to mitigate directory traversal. It strips out any directory paths 
+(like ../) and returns only the base name of the file or folder, keeping the user locked in 
+the current directory.
+
+2) file_exists() function: Used to check if the directory exists before executing scandir(). 
+This prevents the PHP Warning/Error disclosure we saw in Step D.
+
+3) Bonus Mitigation: Added a check for the "." character using strpos() to prevent users 
+from passing filenames or attempting any form of relative path navigation.

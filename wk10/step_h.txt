@@ -1,0 +1,7 @@
+1) How to mitigate the problem: The sensitive information was moved from HTML comments 
+(``) to PHP comments (<?php // ?>).
+
+2) Reasoning: HTML comments are sent to the client's browser and can be read by anyone 
+using "View Source". PHP comments, however, are executed on the server side. The PHP 
+engine strips these comments out before sending the final HTML to the user, ensuring 
+that internal notes, IDs, and system paths remain invisible to the public.

@@ -1,0 +1,31 @@
+1) 10,000 TCP packets all at once from random source IP Addresse
+
+root@comp3134-Winter2026:/var/www/html# hping3 -c 10000 -S --rand-source --flood 127.0.0.1
+HPING 127.0.0.1 (lo 127.0.0.1): S set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+^C
+--- 127.0.0.1 hping statistic ---
+5527609 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+2) 9,000 UDP packets in a span of 90 seconds from a spoofed source address
+
+root@comp3134-Winter2026:/var/www/html# hping3 -c 9000 -2 -i u10000 -a 192.168.1.100 127.0.0.1
+HPING 127.0.0.1 (lo 127.0.0.1): udp mode set, 28 headers + 0 data bytes
+
+--- 127.0.0.1 hping statistic ---
+9000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+
+3) 11,000 ICMP packets with a data size of 1KB at an interval of 75 packets per second
+
+root@comp3134-Winter2026:/var/www/html# hping3 -c 11000 -1 -d 1024 -i u13333 127.0.0.1
+HPING 127.0.0.1 (lo 127.0.0.1): icmp mode set, 28 headers + 1024 data bytes
+len=1052 ip=127.0.0.1 ttl=64 id=55810 icmp_seq=0 rtt=0.7 ms
+len=1052 ip=127.0.0.1 ttl=64 id=55818 icmp_seq=1 rtt=1.1 ms
+len=1052 ip=127.0.0.1 ttl=64 id=55829 icmp_seq=2 rtt=1.7 ms
+^C
+--- 127.0.0.1 hping statistic ---
+7880 packets transmitted, 7879 packets received, 1% packet loss
+round-trip min/avg/max = 0.1/1.6/1002.1 ms
